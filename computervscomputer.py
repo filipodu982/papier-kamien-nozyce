@@ -14,7 +14,7 @@ while True:
         'scissors': 'rock'
     }
 
-    print 'Computer1 picked %s and computer2 chose %s' % (lista[pick1], lista[pick2])
+    print 'Computer1 picked %s and Computer2 picked %s' % (lista[pick1], lista[pick2])
 
     if wins[lista[pick1]] == lista[pick2]:
         print 'Computer 2 won!'
@@ -22,6 +22,6 @@ while True:
         print 'Draw!'
     else:
         print 'Computer 1 won!'
-    k = raw_input('Idz dalej ')
+    k = raw_input('Next round')
   except KeyboardInterrupt:
     pass
